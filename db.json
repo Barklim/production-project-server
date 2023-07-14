@@ -673,9 +673,9 @@
       ]
     },
     {
-      "id": "18",
-      "title": "Шаблоны проектирования",
-      "subtitle": " Шаблоны проектирования Node.js",
+      "id": "19",
+      "title": "Шаблоны проектирования Node.js",
+      "subtitle": "Шаблоны проектирования Node.JS | Каскиаро Марио, Маммино Лучано",
       "img": "https://cv6.litres.ru/pub/c/cover_415/27071860.webp",
       "views": 1022,
       "createdAt": "14.07.2023",
@@ -689,12 +689,14 @@
           "type": "TEXT",
           "title": "Описание",
           "paragraphs": [
-            "В книге описаны асинхронная, однопоточная архитектура платформы, а также шаблоны асинхронного управления потоком выполнения и потоками данных. Рассмотрен подробный список реализаций распространенных, а также некоторых уникальных шаблонов проектирования в Node.js."
+            "В книге описаны асинхронная, однопоточная архитектура платформы, а также шаблоны асинхронного управления потоком выполнения и потоками данных. Рассмотрен подробный список реализаций распространенных, а также некоторых уникальных шаблонов проектирования в Node.js.",
+            "Самые мощные компоненты и шаблоны платформы Node.js для создания масштабируемых модульных приложений!Знакомство с множеством шаблонов проектирования серверных приложений на языке JavaScript..."
           ]
         }
       ]
     },
     {
+      "id": "20",
       "title": "Building Micro-Frontends",
       "subtitle": "Building Micro-Frontends",
       "img": "https://mcusercontent.com/74c53dc98237c0f7fa8ee5542/images/fd6b25a8-b9c2-28db-b871-ee0ae65c0408.png",
@@ -704,10 +706,10 @@
       "type": [
         "BOOK"
       ],
-      "blocks": [],
-      "id": "guOLlgD"
+      "blocks": []
     },
     {
+      "id": "21",
       "title": "Пиши, сокращай",
       "subtitle": "Пиши, сокращай",
       "img": "https://alpinabook.ru/resize/470x470/upload/iblock/32f/32f33a5cccda478e0481cf78fe157c61.jpg",
@@ -717,8 +719,30 @@
       "type": [
         "BOOK"
       ],
-      "blocks": [],
-      "id": "6f91vPH"
+      "blocks": []
+    },
+    {
+      "id": "22",
+      "title": "Microservice Architecture",
+      "subtitle": "Microservice Architecture",
+      "img": "https://microservices.io/i/Microservice_Architecture.png",
+      "chLink": "https://microservices.io/patterns/data/event-sourcing.html",
+      "views": 1022,
+      "createdAt": "14.07.2023",
+      "userId": "1",
+      "type": [
+        "OTHER"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Description",
+          "paragraphs": [
+            "Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are:"
+          ]
+        }
+      ]
     }
   ],
   "comments": [
@@ -937,7 +961,7 @@
       "avatar": "https://mobimg.b-cdn.net/v3/fetch/22/2207633df03a819cd72889249c8361a8.jpeg?w=1470&r=0.5625",
       "jsonSettings": {
         "isArticlesPageWasOpened": true,
-        "theme": "app_dark_theme"
+        "theme": "app_light_theme"
       }
     },
     {
