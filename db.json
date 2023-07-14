@@ -36,7 +36,7 @@
   "articles": [
     {
       "id": "1",
-      "title": "Javascript news",
+      "title": "Javascript news 2023",
       "subtitle": "Что нового в JS за 2023 год?",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png",
       "views": 1022,
@@ -109,25 +109,23 @@
     },
     {
       "id": "2",
-      "title": "Microfrontends",
-      "subtitle": "Microfrontends with React: A Complete Developer's Guide",
-      "img": "https://cdn.coursehunter.net/courses/536x320/mikrofrontendy-c-react-polnoe-rukovodstvo.webp",
-      "chLink": "https://coursehunter.net/course/mikrofrontendy-c-react-polnoe-rukovodstvo",
-      "views": 5204,
-      "createdAt": "11.12.2020",
+      "title": "Асинхронное программирование",
+      "subtitle": "Асинхронное программирование",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3sE9VFn5wVOgjXU00X5_ueD6VVKlSF48P312KNPuwY2HQA5OOS4cHLVPFvuIdOwDto4o&usqp=CAU",
+      "chLink": "https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Asynchronous.md",
+      "views": 1022,
+      "createdAt": "20.09.2018",
       "userId": "1",
       "type": [
-        "COURSE"
+        "OTHER"
       ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
-          "title": "Description",
+          "title": "Описание",
           "paragraphs": [
-            "Congratulations! You've found the most popular, most complete, and most up-to-date resource online for learning how to use microfrontends! Thousands of other engineers have learned microfrontends, and you can too. This course uses a time-tested, battle-proven method to make sure you understand exactly how microfrontends work, and will get you a new job working as a software engineer or help you build that app you've always been dreaming about.",
-            "The difference between this course and all the others: you will understand the design patterns used by top companies to build massively popular web apps.",
-            "Microfrontends are used to divide a large app into a series of smaller apps. This provides a set of unique benefits to any frontend:"
+            "Объем материала: 24 лекции, 27 репозиториев с примерами кода."
           ]
         }
       ]
@@ -150,9 +148,176 @@
           "type": "TEXT",
           "title": "Описание",
           "paragraphs": [
-            "Всё больше компаний обращает своё внимание на микросервисную архитектуру, так как она решает множество проблем монолитных приложений: непростое горизонтальное масштабирование, устаревающий стек, высокая связанность и запутанность кода, а так же медленные процессы сборки, тестирования и выкладки. За счёт атомарности, микросервисная архитектура призвана решить все эти проблемы, а так же повысить отказоустойчивость и упростить поддержку. Но для всего есть и обратная сторона.",
-            "Микросервисная архитектура требует совершенно другого подхода в проектировании и реализации.",
-            "В курсы мы как раз посмотрим на все особенность построения микросервисной архитектуры. Мы разберём паттерны взаимодействия, декомпозиции, реализации команд и запросов, модели доменных событий и множество подводных камней, которые вы встретите при внедрении микросервисов. Курс был составлен исходя из моего реального опыта внедрения микросервисов в разных компаниях и тех трудностей, с которыми мне пришлось столкнуться. Несмотря на то, что в курсе мы будем писать код на TypeScript под Node.js, на фреймворке NestJS, он будет полезен и тем, кто пишет на других языках так как содержит много полезного теоретического материала. "
+            "Курс идеально подойдет 2 категориям людей: 1. Люди, которые в данный момент ищут работу или близки к этому. 2. Действующие junior или middle разработчики, которые хотят повысить профессиональный уровень.\n\nПервая категория получит топовый проект в портфолио + десяток новых технологий и подходов к разработке в резюме.\n\nВторая категория сможет расширить свой кругозор и повысить профессиональный уровень."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "TEXT",
+          "title": "Кому курс не подойдет?",
+          "paragraphs": [
+            "Если вы совсем недавно начали изучать React и абсолютно не понимаете, хотя бы на самом базовом уровне концепцию Redux, то курс вам не подойдет.\n\nЕсли вы понимаете, что происходит в ролике \"Фундаментальный React от А до Я\" и закрепили его на практике, а также понимаете основы Redux, то курс подойдет вам идеально.\n\nТакже плюсом будет минимальное понимание TypeScript (достаточно основ).\n\nЧто представляет из себя курс?\n\nКурс представляет из себя не оторванные от реальности уроки, а последовательную разработку большого production проекта на React, включая настройку всей инфраструктуры, тестовой среды, работу с сервером\\данными и тд. По итогу вы получите большой и сложный с технической точки зрения проект, большое кол-во коммитов в гит. К проекту всегда можно будет вернуться и посмотреть как реализован тот или иной момент.\n\n",
+            "Важно! Курс не про React. React лишь одна из технологий, которая используется в курсе. Курс про Frontend разработку в целом и охватывает более глобальные концепции и подходы, включая конфигурацию, тесты и прочее (про это можно почитать подробнее ниже). Разработчикам на Vue/Svelte/angular курс также подойдет (но со специфичными для реакта моментами)\n\nНабор знаний, который вы получите\n\nP.S. не пугайся незнакомых названий, курс и нужен для того, чтобы это исправить :)"
+          ]
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Конфигурация",
+          "paragraphs": [
+            "Полная конфигурация проекта с нуля (Webpack). Настроим React, Typescript, Babel, scss, css modules, vite, prettier, также настроим тестовую среду, jest, rtl, storybook, loki, Cypress. Большое кол-во плагинов, лоадеров + грамотная декомпозиция конфига."
+          ]
+        },
+        {
+          "id": "4",
+          "type": "TEXT",
+          "title": "UI",
+          "paragraphs": [
+            "Библиотека компонентов. Более 20 UI компонентов, включая модальные окна с порталами, выпадающие списки\\меню, сайдбар, кнопки с разными темами, скелетоны, попапы, ленивые изображения, drawer, аватары, вертикальные и горизонтальные стеки и тд. Будем писать как свои решения так и опробуем headless библиотеки. Все компоненты будем делать доступными и семантичными."
+          ]
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Архитектура",
+          "paragraphs": [
+            "Архитектура. Модули. Декомпозиция. Бизнес сущности. Слабое зацепление и сильная связность. Переиспользование. Конкретные примеры\n\n"
+          ]
+        },
+        {
+          "id": "6",
+          "type": "TEXT",
+          "title": "Оптимизация",
+          "paragraphs": [
+            "Оптимизация. Перерисовки и как с ними бороться. Анализ размера бандла. Использование бандл анализаторов. Асинхронные компоненты. Асинхронные Redux редюссеры. Reducer manager и создание небольшой библиотечки по внедрению асинхронных редюсеров. Изоляция модулей. Throttle и debounce. Инъекция эндпоинтов для лучшего code splitting. Научимся удобно асинхронно подгружать библиотеки, которые не нужны сразу (для анимаций и драг энд дропа)."
+          ]
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Реальные задачи",
+          "paragraphs": [
+            "Решение большого кол-ва задач из реальной разработки (фильтры, поиск, сортировки, бесконечные ленты, многоблочные страницы, комментарии и тд). Похоже на то, что было в фундаментальном курсе, но в разы больше и сделано технически интереснее."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Темы и стили",
+          "paragraphs": [
+            "CSS модули и темизация. Создадим правильную структуру стилей и внедрим 3 цветовые темы нашего приложения (темная, светлая, оранжевая). Организуем стили так, что внедрить новую тему будет стоить 5 минут. Поработаем с scss"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "Сторибук и скриншотные тесты",
+          "paragraphs": [
+            "С нуля настроим Storybook и будем описывать story case для каждого компонента и всех его состояний. Научимся делать скриншотные тесты, что позволит делать регрессионое тестирование нашего интерфейса."
+          ]
+        },
+        {
+          "id": "10",
+          "type": "TEXT",
+          "title": "Unit и RTL тесты",
+          "paragraphs": [
+            "С нуля настроим тестовую среду для unit jest тестов и тестов на компоненты с помощью React Testing Library. Будем тестировать каждый разработанный модуль (селекторы, async thunks, редюсеры, компоненты)."
+          ]
+        },
+        {
+          "id": "11",
+          "type": "TEXT",
+          "title": "e2e тестирование",
+          "paragraphs": [
+            "В самом конце разработки покроем разработанные модули E2E тестами. Разберем кастомные команды, фикстуры, моки, стабы, интерцепторы, скипы. Научимся правильно выполнять запросы и писать end-to-end тесты."
+          ]
+        },
+        {
+          "id": "12",
+          "type": "TEXT",
+          "title": "Линтинг и prettier",
+          "paragraphs": [
+            "Настроим под себя code-style, в частности настроим ESlint и stylelint. Для eslint реализуем самописный плагин в виде отдельного npm пакета. Плагин будет содержать 3 самописных правила, которые будут следить за правилами архитектуры, изоляцией модулей, правильным доступам к слоям. Правила будут обладать автофиксом, который будет автоматически исправлять неправильный код. Для формативания и наведения красоты в коде настроим Prettier."
+          ]
+        },
+        {
+          "id": "13",
+          "type": "TEXT",
+          "title": "Ошибки",
+          "paragraphs": [
+            "Научимся правильно обрабатывать ошибки и реализуем ErrorBoundary. Посмотрим на практике как он работает."
+          ]
+        },
+        {
+          "id": "14",
+          "type": "TEXT",
+          "title": "Роутинг",
+          "paragraphs": [
+            "React-router-dom V6. Конечно в нашем приложении будет несколько страниц, этим никого не удивишь. Настроим доступы для этих страниц, по авторизованности, либо по ролям. Также для сохранения минимального размера бандла научимся выносить страницы в отдельные чанки."
+          ]
+        },
+        {
+          "id": "15",
+          "type": "TEXT",
+          "title": "i18n",
+          "paragraphs": [
+            "Научимся работать с интернационализацией. Внедрим в интерфейс два языка (русский и английский). Также научимся разбивать переводы на чанки и подгружать их порциями, чтобы не увеличивать размер бандла. Поговорим про плюральные формы и рассмотрим конкретные примеры."
+          ]
+        },
+        {
+          "id": "16",
+          "type": "TEXT",
+          "title": "TypeScript",
+          "paragraphs": [
+            "С нуля настроим TS (tsconfig), подружим его с вебпаком, поработаем с union типами, дженерик компонентами, в общем тайпскрипта будет много."
+          ]
+        },
+        {
+          "id": "17",
+          "type": "TEXT",
+          "title": "Babel",
+          "paragraphs": [
+            "Настроим Babel и в качестве тренировки подключим плагинчик, который будет автоматически извлекать ключи для переводов из кода и добавлять в JSON файлики. Также реализуем свой собственный плагин, который будет удалять лишний для нас код из Production сборки. На практике посмотрим как работают babel плагины, поговорим про парсинг АСТ дерева."
+          ]
+        },
+        {
+          "id": "18",
+          "type": "TEXT",
+          "title": "СI/CD и pre-commit хуки",
+          "paragraphs": [
+            "Настроим ci pipeline, который будет прогонять за нас 3 вида тестов, делать сборку проекта, сторибука, прогонять код на линтеры. Также настроим pre commit хуки с помощью husky. Научимся генерировать отчеты для юнит и скриншотных тестов с информацией об успешных/упавших тестах и также научимся сразу их публиковать в ci github pages."
+          ]
+        },
+        {
+          "id": "19",
+          "type": "TEXT",
+          "title": "Нормализация данных",
+          "paragraphs": [
+            "Также уделим внимание нормализации данных. Поговорим про саму концепцию и реализуем пример в коде. Поработаем с EntityAdapter."
+          ]
+        },
+        {
+          "id": "20",
+          "type": "TEXT",
+          "title": "Виртуализация",
+          "paragraphs": [
+            "При работе со списками важно не забыть про Perfomance. Поработаем с виртуальными списками, на примере посмотрим как можно повысить производительность."
+          ]
+        },
+        {
+          "id": "21",
+          "type": "TEXT",
+          "title": "Инфраструктура",
+          "paragraphs": [
+            "Инфраструктуру настроим таким образом, чтобы и сам проект, и тестовое окружение, и сторибук умели использовать все фичи и работать как единное целое. (ts, css modules, глобальные переменные сборки и тд). "
+          ]
+        },
+        {
+          "id": "22",
+          "type": "TEXT",
+          "title": "Рефакторинг",
+          "paragraphs": [
+            "В конце разработки мы проанализируем получившийся код и постараемся его отрефакторить, разберем слабые места, исправим их и поймем на конкретных примерах, как стоит декомпозировать и изолировать модули в приложении."
           ]
         }
       ]
@@ -201,7 +366,7 @@
           "title": "Description",
           "paragraphs": [
             "Unlock the power of AI and gain a huge productivity boost with our comprehensive online video course!",
-            "Are you ready to harness the incredible potential of ChatGPT? Look no further! Our course, 'ChatGPT - The Complete Guide to ChatGPT & OpenAI APIs' is your all-in-one solution to mastering this revolutionary technology."            
+            "Are you ready to harness the incredible potential of ChatGPT? Look no further! Our course, 'ChatGPT - The Complete Guide to ChatGPT & OpenAI APIs' is your all-in-one solution to mastering this revolutionary technology."
           ]
         }
       ]
@@ -317,7 +482,7 @@
           "type": "TEXT",
           "title": "Description",
           "paragraphs": [
-            "Developer tooling within browsers is more powerful than ever, but this brings its own set of problems: there’s just so much! How does it all work? Which bits do I need? What does this even do?"        
+            "Developer tooling within browsers is more powerful than ever, but this brings its own set of problems: there’s just so much! How does it all work? Which bits do I need? What does this even do?"
           ]
         }
       ]
@@ -432,7 +597,7 @@
           "type": "TEXT",
           "title": "Описание",
           "paragraphs": [
-             "С какими задачами поступают к нам на практикум? Хочется работать с масштабными проектами; Есть желание попасть на работу в крупную компанию, но не хватает компетенций; Нужно повысить квалификацию, чтобы продвинуться в должности; На практике познакомиться с актуальным технологическим стеком."
+            "С какими задачами поступают к нам на практикум? Хочется работать с масштабными проектами; Есть желание попасть на работу в крупную компанию, но не хватает компетенций; Нужно повысить квалификацию, чтобы продвинуться в должности; На практике познакомиться с актуальным технологическим стеком."
           ]
         }
       ]
@@ -462,24 +627,25 @@
     },
     {
       "id": "17",
-      "title": "Асинхронное программирование",
-      "subtitle": "Асинхронное программирование",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3sE9VFn5wVOgjXU00X5_ueD6VVKlSF48P312KNPuwY2HQA5OOS4cHLVPFvuIdOwDto4o&usqp=CAU",
-      "chLink": "https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Asynchronous.md",
-      "views": 1022,
-      "createdAt": "20.09.2018",
+      "title": "Microfrontends",
+      "subtitle": "Microfrontends with React: A Complete Developer's Guide",
+      "img": "https://cdn.coursehunter.net/courses/536x320/mikrofrontendy-c-react-polnoe-rukovodstvo.webp",
+      "chLink": "https://coursehunter.net/course/mikrofrontendy-c-react-polnoe-rukovodstvo",
+      "views": 5204,
+      "createdAt": "11.12.2020",
       "userId": "1",
       "type": [
-        "OTHER"
+        "COURSE"
       ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
-          "title": "Описание",
+          "title": "Description",
           "paragraphs": [
-            "Объем материала: 24 лекции, 27 репозиториев с примерами кода.",
-            "Ссылка - https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Asynchronous.md"
+            "Congratulations! You've found the most popular, most complete, and most up-to-date resource online for learning how to use microfrontends! Thousands of other engineers have learned microfrontends, and you can too. This course uses a time-tested, battle-proven method to make sure you understand exactly how microfrontends work, and will get you a new job working as a software engineer or help you build that app you've always been dreaming about.",
+            "The difference between this course and all the others: you will understand the design patterns used by top companies to build massively popular web apps.",
+            "Microfrontends are used to divide a large app into a series of smaller apps. This provides a set of unique benefits to any frontend:"
           ]
         }
       ]
